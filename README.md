@@ -125,33 +125,35 @@ Dashboard features:
 - Matplotlib
 - Streamlit
 - Waymo Open Motion Dataset
-
+  
 ## Running the Dashboard
 
 Clone the repository:
 
-```bash
-git clone https://github.com/VaibhavKela/waymo-vehicle-trajectory-prediction.git
-cd waymo-vehicle-trajectory-prediction
-```
+    git clone https://github.com/VaibhavKela/waymo-vehicle-trajectory-prediction.git
+    cd waymo-vehicle-trajectory-prediction
 
-Create and activate a Python virtual environment, then install the required dependencies.
+Create and activate a virtual environment:
 
-For example, install Streamlit using:
+    python -m venv venv
 
-```bash
-uv pip install streamlit
-```
+On Windows:
 
-Run the dashboard:
+    venv\Scripts\activate
 
-```bash
-streamlit run app.py
-```
+On macOS/Linux:
 
-The dashboard expects the prepared test arrays, prediction file, and prediction-error CSV to be available in the `outputs/` directory.
+    source venv/bin/activate
 
-The original dataset and generated model artifacts are not included in this README. They must be obtained or generated separately.
+Install the required dependencies:
+
+    python -m pip install -r requirements.txt
+
+Run the Streamlit dashboard:
+
+    streamlit run app.py
+
+The dashboard uses the prepared test arrays, prediction results, and prediction-error data stored in the `outputs/` directory.
 
 ## Limitations
 
