@@ -1,0 +1,5 @@
+Model,ADE (meters),FDE (meters)
+Constant Velocity,12.5612,32.7582
+Linear Regression - Absolute,9.3979,27.029
+Linear Regression - Relative,9.2205,26.4291
+Linear Regression - Motion Features,10.4624,30.4663

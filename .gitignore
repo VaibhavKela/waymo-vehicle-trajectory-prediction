@@ -1,0 +1,39 @@
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Original Waymo dataset
+data/
+
+# Large intermediate datasets
+outputs/multiple_scenarios_trajectories.csv
+
+# Generated models and arrays
+outputs/*.pkl
+outputs/*.keras
+outputs/*.npy
+
+# Keep useful dashboard outputs
+!outputs/prediction_error_over_time.csv
+!outputs/prediction_error_over_time.png
+!outputs/relative_linear_validation_prediction.png
+!outputs/baseline_prediction.png
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Operating system and IDE
+.DS_Store
+Thumbs.db
+.vscode/
