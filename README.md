@@ -131,8 +131,8 @@ Dashboard features:
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd waymo-denver-demand
+git clone https://github.com/VaibhavKela/waymo-vehicle-trajectory-prediction.git
+cd waymo-vehicle-trajectory-prediction
 ```
 
 Create and activate a Python virtual environment, then install the required dependencies.
